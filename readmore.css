@@ -1,0 +1,12 @@
+    body{
+    height: 100vh;
+    background-image:image("readmore.jpg")
+    
+      url();
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1{
+    font-size: 50px;
+  }

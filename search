@@ -1,0 +1,22 @@
+<section class="search-section">
+    <h2>Search for Travel Packages</h2>
+    <form id="search-form">
+        <input type="text" name="destination" placeholder="Destination">
+        <input type="date" name="start-date">
+        <input type="date" name="end-date">
+        <input type="number" name="budget" placeholder="Budget">
+        <button type="submit">Search</button>
+    </form>
+
+    <div class="filters">
+        <h3>Filters</h3>
+        <label><input type="checkbox" name="filter-price-low"> Low Price</label>
+        <label><input type="checkbox" name="filter-price-high"> High Price</label>
+        <label><input type="checkbox" name="filter-duration-short"> Short Duration</label>
+        <label><input type="checkbox" name="filter-duration-long"> Long Duration</label>
+        <label><input type="checkbox" name="filter-rating-high"> High Rating</label>
+    </div>
+
+    <div class="search-results">
+        </div>
+</section>
